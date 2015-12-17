@@ -33,6 +33,12 @@ body{
     margin-top: 20px;
 }
 
+.nav_ul_item {
+    padding-left: 25px;
+    float: left;
+    margin-top: 20px;
+}
+
 .center {
     text-align: center;
 }
@@ -90,6 +96,11 @@ input {
   height: auto !important;
 }
 
+.checkbox_input input {
+  height: auto !important;
+  width: auto !important;
+}
+
 span.picture {
   margin-top: 10px;
   input {
@@ -100,3 +111,4 @@ span.picture {
 .show_recipe {
   margin: 10px 10px 10px 10px; 
 }
+
