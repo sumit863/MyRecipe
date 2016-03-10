@@ -1,0 +1,14 @@
+<%= render 'shared/page_title' , title: 'Add your Review' %>
+
+<%= render 'shared/errors' , obj: @review %>
+
+<div class = "row">
+  <div class = "well">
+    <%= form_for @review do |f| %>
+      <%= f.label :review %>
+      <%= f.text_area :review , rows: 4 %>
+      
+      <%= f.submit "Add Review" , class: "btn btn-success" %>
+    <% end %>
+  </div>
+</div>
